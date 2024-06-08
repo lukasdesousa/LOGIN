@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: fira code, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+
+}
+
+fieldset {
+    margin: 10px auto;
+    width: 300px;
+    background-color: white;
+    margin-top: 130px;
+    height: 200px;
+    text-align: center;
+
+}
+
+main > h1 {
+    display: block;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: rgb(178, 0, 178);
+}
+
+legend {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+fieldset > form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    padding: 10px;
+    font-family: fira code, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2px;
+}
+
+.login {
+    margin-top: 40px;
+}
+
+#botao {
+    margin-top: 6px;
+    background-color: #fff;
+}
+
+.cofee {
+    display: block;
+    position: relative;
+    top: 120px;
+    width: 100px;
+    margin: auto;
+}
